@@ -12,6 +12,7 @@ For the impatient
 git clone https://github.com/Crazor/QuickPub.git
 git clone https://github.com/aburgh/Objective-Zip.git
 cd QuickPub
+xcodebuild -scheme "Objective-Zip Framework"
 xcodebuild
 qlmanage -r
 ```
