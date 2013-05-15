@@ -1,17 +1,3 @@
-//==============================================================================
-//
-//	DO NO MODIFY THE CONTENT OF THIS FILE
-//
-//	This file contains the generic CFPlug-in code necessary for your generator
-//	To complete your generator implement the function in GenerateThumbnailForURL/GeneratePreviewForURL.c
-//
-//==============================================================================
-
-
-
-
-
-
 #include <CoreFoundation/CoreFoundation.h>
 #include <CoreFoundation/CFPlugInCOM.h>
 #include <CoreServices/CoreServices.h>
@@ -30,7 +16,6 @@
 // You should not have to modify this code aside from changing
 // names if you decide to change the names defined in the Info.plist
 //
-
 
 // -----------------------------------------------------------------------------
 //	typedefs

@@ -12,10 +12,92 @@
 		6E25ABE81741A1B300E5C9B7 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25ABE71741A1B300E5C9B7 /* CoreServices.framework */; };
 		6E25ABEA1741A1B300E5C9B7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25ABE91741A1B300E5C9B7 /* CoreFoundation.framework */; };
 		6E25ABF01741A1B300E5C9B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E25ABEE1741A1B300E5C9B7 /* InfoPlist.strings */; };
-		6E25ABF21741A1B300E5C9B7 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.c */; };
-		6E25ABF41741A1B300E5C9B7 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.c */; };
+		6E25ABF21741A1B300E5C9B7 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.m */; };
+		6E25ABF41741A1B300E5C9B7 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.m */; };
 		6E25ABF61741A1B300E5C9B7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E25ABF51741A1B300E5C9B7 /* main.c */; };
+		6E25AC161741A1F600E5C9B7 /* Objective-Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25AC151741A1F600E5C9B7 /* Objective-Zip.framework */; };
+		6E25AC181741A22400E5C9B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25AC171741A22400E5C9B7 /* Cocoa.framework */; };
+		6E25AC221741A36100E5C9B7 /* QuickPub.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E25ABE01741A1B300E5C9B7 /* QuickPub.qlgenerator */; };
+		6E25AC241741A40000E5C9B7 /* Objective-Zip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E25AC151741A1F600E5C9B7 /* Objective-Zip.framework */; };
+		6E713B4E1742526800CF03AE /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E713B4C1742526800CF03AE /* TBXML.m */; };
+		6E713B4F1742526800CF03AE /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E713B4D1742526800CF03AE /* TBXML.h */; };
+		6E713B6017427BCA00CF03AE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E713B5F17427BCA00CF03AE /* WebKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E25AC071741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96D49C2414CEE20E00C927AA;
+			remoteInfo = "Objective-Zip ARM";
+		};
+		6E25AC091741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96D49C9014CF160000C927AA;
+			remoteInfo = "Objective-Zip Intel";
+		};
+		6E25AC0B1741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96D49C9614CF16B100C927AA;
+			remoteInfo = "Objective-Zip";
+		};
+		6E25AC0D1741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = "Objective-Zip Test";
+		};
+		6E25AC0F1741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A68BDB164E6F9B00C0E535;
+			remoteInfo = ZipFileUnitTest;
+		};
+		6E25AC111741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A68BFD1651488200C0E535;
+			remoteInfo = "objective-zip_test";
+		};
+		6E25AC131741A1C500E5C9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 968F701416BC780400F60C24;
+			remoteInfo = ozip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E25AC211741A34200E5C9B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Users/crazor/Library/QuickLook/;
+			dstSubfolderSpec = 0;
+			files = (
+				6E25AC221741A36100E5C9B7 /* QuickPub.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E25AC231741A3F500E5C9B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E25AC241741A40000E5C9B7 /* Objective-Zip.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E25ABE01741A1B300E5C9B7 /* QuickPub.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickPub.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,10 +107,16 @@
 		6E25ABE91741A1B300E5C9B7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		6E25ABED1741A1B300E5C9B7 /* QuickPub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickPub-Info.plist"; sourceTree = "<group>"; };
 		6E25ABEF1741A1B300E5C9B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		6E25ABF51741A1B300E5C9B7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6E25ABF71741A1B300E5C9B7 /* QuickPub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickPub-Prefix.pch"; sourceTree = "<group>"; };
+		6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Objective-Zip.xcodeproj"; path = "../Objective-Zip/Objective-Zip.xcodeproj"; sourceTree = "<group>"; };
+		6E25AC151741A1F600E5C9B7 /* Objective-Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Objective-Zip.framework"; path = "DerivedData/QuickPub/Build/Products/Debug/Objective-Zip.framework"; sourceTree = "<group>"; };
+		6E25AC171741A22400E5C9B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		6E713B4C1742526800CF03AE /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		6E713B4D1742526800CF03AE /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		6E713B5F17427BCA00CF03AE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +128,9 @@
 				6E25ABE61741A1B300E5C9B7 /* ApplicationServices.framework in Frameworks */,
 				6E25ABE81741A1B300E5C9B7 /* CoreServices.framework in Frameworks */,
 				6E25ABEA1741A1B300E5C9B7 /* CoreFoundation.framework in Frameworks */,
+				6E25AC161741A1F600E5C9B7 /* Objective-Zip.framework in Frameworks */,
+				6E25AC181741A22400E5C9B7 /* Cocoa.framework in Frameworks */,
+				6E713B6017427BCA00CF03AE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +140,7 @@
 		6E25ABD51741A1B300E5C9B7 = {
 			isa = PBXGroup;
 			children = (
+				6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */,
 				6E25ABEB1741A1B300E5C9B7 /* QuickPub */,
 				6E25ABE21741A1B300E5C9B7 /* Frameworks */,
 				6E25ABE11741A1B300E5C9B7 /* Products */,
@@ -66,6 +158,9 @@
 		6E25ABE21741A1B300E5C9B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E713B5F17427BCA00CF03AE /* WebKit.framework */,
+				6E25AC171741A22400E5C9B7 /* Cocoa.framework */,
+				6E25AC151741A1F600E5C9B7 /* Objective-Zip.framework */,
 				6E25ABE31741A1B300E5C9B7 /* QuickLook.framework */,
 				6E25ABE51741A1B300E5C9B7 /* ApplicationServices.framework */,
 				6E25ABE71741A1B300E5C9B7 /* CoreServices.framework */,
@@ -77,8 +172,10 @@
 		6E25ABEB1741A1B300E5C9B7 /* QuickPub */ = {
 			isa = PBXGroup;
 			children = (
-				6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.c */,
-				6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.c */,
+				6E713B4D1742526800CF03AE /* TBXML.h */,
+				6E713B4C1742526800CF03AE /* TBXML.m */,
+				6E25ABF11741A1B300E5C9B7 /* GenerateThumbnailForURL.m */,
+				6E25ABF31741A1B300E5C9B7 /* GeneratePreviewForURL.m */,
 				6E25ABF51741A1B300E5C9B7 /* main.c */,
 				6E25ABEC1741A1B300E5C9B7 /* Supporting Files */,
 			);
@@ -95,6 +192,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E25ABFE1741A1C400E5C9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E25AC081741A1C500E5C9B7 /* libObjective-Zip.a */,
+				6E25AC0A1741A1C500E5C9B7 /* libObjective-Zip.a */,
+				6E25AC0C1741A1C500E5C9B7 /* Objective-Zip.framework */,
+				6E25AC0E1741A1C500E5C9B7 /* Objective-Zip Test.app */,
+				6E25AC101741A1C500E5C9B7 /* ZipFileUnitTest.octest */,
+				6E25AC121741A1C500E5C9B7 /* objective-zip_test */,
+				6E25AC141741A1C500E5C9B7 /* ozip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -102,6 +213,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E713B4F1742526800CF03AE /* TBXML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,10 +225,13 @@
 			buildConfigurationList = 6E25ABFA1741A1B300E5C9B7 /* Build configuration list for PBXNativeTarget "QuickPub" */;
 			buildPhases = (
 				6E25ABDA1741A1B300E5C9B7 /* Sources */,
+				6E25AC231741A3F500E5C9B7 /* CopyFiles */,
+				6E25AC251741AB9400E5C9B7 /* ShellScript */,
 				6E25ABDB1741A1B300E5C9B7 /* Frameworks */,
 				6E25ABDC1741A1B300E5C9B7 /* Headers */,
 				6E25ABDD1741A1B300E5C9B7 /* Resources */,
 				6E25ABDE1741A1B300E5C9B7 /* Rez */,
+				6E25AC211741A34200E5C9B7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -146,12 +261,70 @@
 			mainGroup = 6E25ABD51741A1B300E5C9B7;
 			productRefGroup = 6E25ABE11741A1B300E5C9B7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E25ABFE1741A1C400E5C9B7 /* Products */;
+					ProjectRef = 6E25ABFD1741A1C400E5C9B7 /* Objective-Zip.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6E25ABDF1741A1B300E5C9B7 /* QuickPub */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6E25AC081741A1C500E5C9B7 /* libObjective-Zip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjective-Zip.a";
+			remoteRef = 6E25AC071741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC0A1741A1C500E5C9B7 /* libObjective-Zip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjective-Zip.a";
+			remoteRef = 6E25AC091741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC0C1741A1C500E5C9B7 /* Objective-Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "Objective-Zip.framework";
+			remoteRef = 6E25AC0B1741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC0E1741A1C500E5C9B7 /* Objective-Zip Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Objective-Zip Test.app";
+			remoteRef = 6E25AC0D1741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC101741A1C500E5C9B7 /* ZipFileUnitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipFileUnitTest.octest;
+			remoteRef = 6E25AC0F1741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC121741A1C500E5C9B7 /* objective-zip_test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "objective-zip_test";
+			remoteRef = 6E25AC111741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E25AC141741A1C500E5C9B7 /* ozip */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ozip;
+			remoteRef = 6E25AC131741A1C500E5C9B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6E25ABDD1741A1B300E5C9B7 /* Resources */ = {
@@ -174,14 +347,32 @@
 		};
 /* End PBXRezBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E25AC251741AB9400E5C9B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -change \\\n\"@executable_path/../Frameworks/Objective-Zip.framework/Versions/A/Objective-Zip\" \\\n\"@loader_path/../Frameworks/Objective-Zip.framework/Versions/A/Objective-Zip\" \\\n\"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E25ABDA1741A1B300E5C9B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E25ABF21741A1B300E5C9B7 /* GenerateThumbnailForURL.c in Sources */,
-				6E25ABF41741A1B300E5C9B7 /* GeneratePreviewForURL.c in Sources */,
+				6E25ABF21741A1B300E5C9B7 /* GenerateThumbnailForURL.m in Sources */,
+				6E25ABF41741A1B300E5C9B7 /* GeneratePreviewForURL.m in Sources */,
 				6E25ABF61741A1B300E5C9B7 /* main.c in Sources */,
+				6E713B4E1742526800CF03AE /* TBXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +416,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -252,7 +443,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
@@ -262,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/QuickPub/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickPub/QuickPub-Prefix.pch";
 				INFOPLIST_FILE = "QuickPub/QuickPub-Info.plist";
@@ -275,6 +470,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/QuickPub/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuickPub/QuickPub-Prefix.pch";
 				INFOPLIST_FILE = "QuickPub/QuickPub-Info.plist";
@@ -303,6 +502,7 @@
 				6E25ABFC1741A1B300E5C9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
