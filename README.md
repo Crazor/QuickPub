@@ -3,8 +3,13 @@ QuickPub
 
 A QuickLook generator for ePub cover pages
 
-Compiling and installing
-========================
+Installation
+============
+
+Download, unzip and put ```QuickPub.qlgenerator``` to ```~/Library/QuickLook```. Either log out and back in or open a Terminal and run ```qlmanage -r```.
+
+Compiling from source
+=====================
 
 For the impatient
 -----------------
